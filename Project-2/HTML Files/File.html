@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login And Registration Form</title>
+    <link rel="stylesheet" href="/CSS Files/File.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.fb.com" target="_blank">
+                    <img src="/Images/fb.png" alt="facebook">
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="/Images/tw.png" alt="Twitter">
+                </a>
+                <a href="https://www.google.com" target="_blank">
+                    <img src="/Images/gp.png" alt="Google">
+                </a>
+            </div>
+            <form id="login" action="" class="input-group">
+                <input type="text" class="input-field" id="" placeholder="User Id" required>
+                <input type="password" class="input-field" id="" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box" name="" id=""><span>Remember password</span>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <form id="register" action="" class="input-group">
+                <input type="text" class="input-field" id="" placeholder="User Id" required>
+                <input type="email" class="input-field" id="" placeholder="Email Id" required>
+                <input type="password" class="input-field" id="" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box" name="" id=""><span>I agree to the term & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="/JavaScript Files/File.js"></script>
+
+</html>

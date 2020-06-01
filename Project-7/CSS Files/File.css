@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: teal;
+}
+
+
+.left {
+    border: 2px solid green;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.mid {
+    border: 2px solid red;
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 8px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 15px;
+}
+.navbar li a:hover, .navbar li a.active{
+   text-decoration: underline;
+   color: rgb(83, 207, 83);
+}
+
+.right {
+    border: 2px solid blue;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
